@@ -36,14 +36,14 @@ Node.js API running with PM2
 ## Architecture Diagram
 
 ```mermaid
-flowchart TD
-    A[User Browser] --> B[Route53 DNS]
+graph TD
+    A[Browser] --> B[Route53 DNS]
     B --> C[Domain Name]
-    C --> D[EC2 Instance (Nginx Reverse Proxy)]
-    D --> E[React Frontend Static Files]
-    D --> F[Node.js Express API]
-    F --> G[Application Logic]
+    C --> D[Nginx Reverse Proxy]
+    D --> E[React Frontend]
+    D --> F[Node.js Backend API]
 ```
+
 
 ---
 
