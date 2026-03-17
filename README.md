@@ -35,6 +35,8 @@ Node.js API running with PM2
 ```
 ## Architecture Diagram
 
+## Architecture Diagram
+
 ```mermaid
 flowchart TD
     A[User Browser] --> B[Route53 DNS]
